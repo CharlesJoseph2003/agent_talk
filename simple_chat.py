@@ -61,7 +61,7 @@ class RoverAgent:
         self.conversation_history = []
         self.location = location
         self.data_priority = data_priority
-        self.max_tokens_per_message = 7  # Ultra low bandwidth constraint - 7 tokens per message
+        self.max_tokens_per_message = 7  # Ultra low bandwidth constraint - 1 tokens per message
         
     def get_response(self, message, other_rover_id):
         # Add to conversation history
@@ -144,7 +144,7 @@ def analyze_communication_success(messages):
 
 def run_communication(rover1, rover2, logger=None):
     print(f"\n===== Starting Ultra-Low-Bandwidth Communication =====\n")
-    print(f"Constraint: Strictly 7 tokens per message maximum (no total limit)")
+    print(f"Constraint: Strictly 1 tokens per message maximum (no total limit)")
     print(f"Rover {rover1.rover_id} at {rover1.location}")
     print(f"Rover {rover2.rover_id} at {rover2.location}\n")
     
