@@ -1,11 +1,10 @@
-
 import rover1
 
 
 problems = {
-    1: "Low Temp",
+    1: "Low Temp "
     2: "Bumpy surface detected",
-    4: "Unidentified object ahead",
+    4: "Unidentified object ahead"
 }
 
 observations = {
