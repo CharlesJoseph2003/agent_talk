@@ -1,0 +1,95 @@
+{
+  "timestamp": "2025-04-13 15:54:14",
+  "type": "Rover Low-Bandwidth Communication",
+  "messages": [
+    {
+      "rover_id": "R1-EXPL",
+      "message": "Status report?",
+      "timestamp": "15:54:14",
+      "token_count": 3
+    },
+    {
+      "rover_id": "R2-SCI",
+      "message": "Soil samples collected. Analyzing",
+      "timestamp": "15:54:16",
+      "token_count": 7
+    },
+    {
+      "rover_id": "R1-EXPL",
+      "message": "R1-EXPL: Ack",
+      "timestamp": "15:54:17",
+      "token_count": 7
+    },
+    {
+      "rover_id": "R2-SCI",
+      "message": "Atmospheric readings stable. Radiation",
+      "timestamp": "15:54:19",
+      "token_count": 7
+    },
+    {
+      "rover_id": "R1-EXPL",
+      "message": "R1-EXPL: Copy",
+      "timestamp": "15:54:20",
+      "token_count": 7
+    },
+    {
+      "rover_id": "R2-SCI",
+      "message": "Soil composition: High iron content",
+      "timestamp": "15:54:22",
+      "token_count": 7
+    },
+    {
+      "rover_id": "R1-EXPL",
+      "message": "R1-EXPL: Not",
+      "timestamp": "15:54:23",
+      "token_count": 7
+    },
+    {
+      "rover_id": "R2-SCI",
+      "message": "Atmospheric conditions: Oxygen levels",
+      "timestamp": "15:54:25",
+      "token_count": 7
+    },
+    {
+      "rover_id": "R1-EXPL",
+      "message": "R1-EXPL: Report",
+      "timestamp": "15:54:26",
+      "token_count": 7
+    },
+    {
+      "rover_id": "R2-SCI",
+      "message": "Soil: Iron-rich. Atmos",
+      "timestamp": "15:54:28",
+      "token_count": 7
+    },
+    {
+      "rover_id": "R1-EXPL",
+      "message": "R1-EXPL: Under",
+      "timestamp": "15:54:29",
+      "token_count": 7
+    },
+    {
+      "rover_id": "R2-SCI",
+      "message": "Radiation levels: Normal. Mission",
+      "timestamp": "15:54:31",
+      "token_count": 7
+    },
+    {
+      "rover_id": "R1-EXPL",
+      "message": "R1-EXPL: Ack",
+      "timestamp": "15:54:32",
+      "token_count": 7
+    },
+    {
+      "rover_id": "R2-SCI",
+      "message": "Complete. Mission accomplished.",
+      "timestamp": "15:54:34",
+      "token_count": 5
+    }
+  ],
+  "transmission_stats": {
+    "total_tokens_sent": 92,
+    "transmission_success": true,
+    "transmission_errors": 0
+  }
+}
